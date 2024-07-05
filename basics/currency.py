@@ -1,0 +1,6 @@
+currency = float(input("Enter value in rupees: "))
+rupee = int(currency)
+paise = int((currency-rupee) * 100)
+print("Value of currency: " ,currency)
+print("Value in rupee: " ,rupee)
+print("Value in paise: " ,paise)
